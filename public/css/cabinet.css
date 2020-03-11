@@ -1,0 +1,133 @@
+body {
+  background-image: url(https://w-dog.ru/wallpapers/14/2/521329945939154.jpg);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+}
+.right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.right a {
+  color: #fff;
+}
+.login {
+  background-color: #ffffffab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 20px -1px 45px 0px rgba(0,0,0,1);
+-moz-box-shadow: 20px -1px 45px 0px rgba(0,0,0,1);
+box-shadow: 20px -1px 45px 0px rgba(0,0,0,1);
+margin-top: 100px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forma {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forma>div {
+  width: 100%;
+}
+.forma input[type=text], input[type=tel], input[type=number], input[type=password] {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-color: #3633339c;
+}
+.forma input:focus {
+  outline: none;
+}
+.title-text h1 {
+  color: black;
+}
+.pol {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+}
+.pol p {
+  padding-top: 4px;
+  padding-left: 5px;
+}
+.cool {
+  display: flex;
+  flex-direction: row;
+}
+.cool p {
+  width: 50%;
+}
+.btn-primary {
+  width: 50%;
+  background-color: #ff3600;
+  border: 1px solid transparent;
+  border-radius: 7px;
+    transition-duration: 0.8s;
+    color: #fff;
+    font-size: 19px;
+    -webkit-box-shadow: 21px -24px 29px -7px rgba(0,0,0,1);
+-moz-box-shadow: 21px -24px 29px -7px rgba(0,0,0,1);
+box-shadow: 21px -24px 29px -7px rgba(0,0,0,1);
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ff3600;
+}
+.login-help {
+  padding: 20px 0px 20px 0px;
+}
+
+@media (max-width: 1000px) {
+  .login {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .login {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .btn-primary {
+    font-size: 13px;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+  }
+  .cool p {
+    font-size: 13px;
+
+  }
+  .cool input[type=checkbox] {
+    position: relative;
+    top: 3px;
+  }
+  #pravila {
+    margin-left: 18px;
+  }
+}
